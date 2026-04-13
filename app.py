@@ -21,9 +21,7 @@ WASTE_DB = {
   "general":  {"type":"GENERAL",  "icon":"❓", "bin":"General Waste / Black Bin",    "method":"Check local disposal guidelines.",           "impact":"Aim to reduce general waste!",               "fact":"30% of bin waste could be composted!"},
 }
 
-PROMPT = """You are a waste classification expert.
-Look at this image VERY CAREFULLY and identify the PRIMARY waste item.
-Classify it into EXACTLY ONE of these categories:
+PROMPT = """Look at this image and classify the waste into EXACTLY ONE category:
 plastic, paper, glass, metal, organic, hazardous, ewaste, general
 
 Definitions:
