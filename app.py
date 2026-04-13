@@ -7,7 +7,7 @@ import os, json, base64, requests
 app = Flask(__name__)
 CORS(app)
 
-genai.configure(api_key=os.environ.get("GEMINI_API_KEY"))
+genai.configure(api_key=os.environ.get("AIzaSyAfd0cNJYz-uyNH7Y7olyILALYZ40ILwGU"))
 model = genai.GenerativeModel("gemini-1.5-flash")
 
 WASTE_DB = {
